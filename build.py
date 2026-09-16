@@ -104,6 +104,8 @@ def cta_html(cat: dict) -> str:
 
 def page(title: str, desc: str, canonical: str, body: str, ld: str = '') -> str:
     ldblock = f'\n<script type="application/ld+json">\n{ld}\n</script>' if ld else ''
+    gv = SITE.get('google_verification', '')
+    gvtag = f'\n<meta name="google-site-verification" content="{gv}">' if gv else ''
     full_title = title if title == SITE["name"] else f'{title} - {SITE["name"]}'
     return f'''<!DOCTYPE html>
 <html lang="zh-CN">
@@ -111,7 +113,7 @@ def page(title: str, desc: str, canonical: str, body: str, ld: str = '') -> str:
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{full_title}</title>
-<meta name="description" content="{desc}">
+<meta name="description" content="{desc}">{gvtag}
 <link rel="canonical" href="{canonical}">
 <link rel="stylesheet" href="/assets/style.css">{ldblock}
 </head>
