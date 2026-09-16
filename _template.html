@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- ↓↓↓ 每篇必改的四项 ↓↓↓ -->
+<title>【填标题，带目标关键词】 - 出海ID指南</title>
+<meta name="description" content="【填 60-100 字摘要，进搜索结果的那段】">
+<meta name="excerpt" content="【填 30-50 字，显示在索引页文章列表里的一句话】">
+<meta name="group" content="{{GROUP}}">
+<!-- group 可选值：{{GROUP_OPTIONS}} -->
+<!-- ↑↑↑ 改完这四项，其余不用动 ↑↑↑ -->
+<link rel="canonical" href="{{BASE}}/{{CAT_SLUG}}/{{SLUG}}.html">
+<link rel="stylesheet" href="/assets/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"【同 title，不带站名】","description":"【同 description】","inLanguage":"zh-CN","datePublished":"{{DATE}}","dateModified":"{{DATE}}","author":{"@type":"Organization","name":"出海ID指南"},"publisher":{"@type":"Organization","name":"出海ID指南"},"mainEntityOfPage":{"@type":"WebPage","@id":"{{BASE}}/{{CAT_SLUG}}/{{SLUG}}.html"}}
+</script>
+</head>
+<body>
+
+{{HEADER}}
+
+<main><div class="wrap">
+<div class="crumb"><a href="/">首页</a> › <a href="/{{CAT_SLUG}}/">{{CAT_NAV}}</a> › 【本篇短名】</div>
+
+<h1>【填 h1，和 title 一致或略短，整页只能有这一个 h1】</h1>
+<p class="meta">更新于 {{DATE}} · 阅读约 N 分钟</p>
+
+<p class="lead">【导语：一段话说清楚这篇解决什么问题。不要写「本文将介绍」，直接给结论或给场景。】</p>
+
+<h2>【小标题】</h2>
+
+<p>【正文。可用的块见下方「组件速查」，写完删掉那一段注释。】</p>
+
+<!-- ========== 组件速查（写完请删掉这整段注释） ==========
+
+表格（必须用 .tw 包住，否则移动端会横向溢出）：
+<div class="tw">
+<table>
+<tr><th>列一</th><th>列二</th></tr>
+<tr><td>内容</td><td>内容</td></tr>
+</table>
+</div>
+
+灰底提示：
+<div class="note">【补充说明】</div>
+
+橙色警告：
+<div class="warn"><strong>注意：</strong>【风险提示】</div>
+
+榜单条目（榜单页专用）：
+<div class="rank">
+<h3><span class="no">1</span>平台名（域名）</h3>
+<p>【概述】</p>
+<p class="pros"><b>优点：</b>【…】</p>
+<p class="cons"><b>缺点：</b>【…】</p>
+<p><strong>适合：</strong>【…】</p>
+</div>
+
+内链（指向同品类其他文章，每篇至少 2 条）：
+<a href="/{{CAT_SLUG}}/其他文章.html">文章标题</a>
+
+写作红线：
+- 不写任何价格、不编造数据、不写虚假评价
+- 只借题不借文，正文必须重写
+- 整页只能有一个 h1
+- 每篇至少 2 条站内内链 + 1 个 CTA
+========== 组件速查结束 ========== -->
+
+{{CTA}}
+
+<div class="rel">
+<h2>相关阅读</h2>
+<ul>
+<li><a href="/{{CAT_SLUG}}/">【填同品类其他文章】</a></li>
+</ul>
+</div>
+
+</div></main>
+
+{{FOOTER}}
+
+</body>
+</html>

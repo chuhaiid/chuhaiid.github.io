@@ -1,0 +1,140 @@
+{
+  "site": {
+    "name": "出海ID指南",
+    "base": "https://chuhaiid.github.io",
+    "tagline": "海外数字账号使用参考",
+    "footer_note": "本站为信息参考站点，不直接销售账号。文中提及的平台与服务由各自运营方负责，涉及的官方流程以各平台官网说明为准。购买和使用第三方账号存在风险，请自行判断。"
+  },
+  "categories": [
+    {
+      "slug": "appleid",
+      "nav": "苹果 ID",
+      "name": "美区 Apple ID",
+      "h1": "美区 Apple ID 使用指南",
+      "title": "美区 Apple ID 使用指南：购买、故障处理与余额",
+      "description": "美区 Apple ID 相关的实用指南合集：在哪里买、平台怎么选、账号被停用怎么办、注册报错怎么处理、余额怎么用。按实际使用场景整理。",
+      "lead": "想下载只在美区上架的 App，就需要一个美区 Apple ID。这里按实际会遇到的顺序整理：先解决从哪儿来，再解决用起来会撞上的问题。",
+      "target": "https://www.taozi277.com/appleid",
+      "cta": "需要现成账号的话，<strong>淘号号</strong>的美区 Apple ID 按是否开通 iCloud、是否已购指定 App 分了多个版本，下单自动发货，支持自行改密改密保。",
+      "cta_btn": "查看在售的美区 Apple ID →",
+      "groups": [
+        {
+          "key": "get",
+          "name": "获取账号"
+        },
+        {
+          "key": "trouble",
+          "name": "故障处理"
+        },
+        {
+          "key": "pay",
+          "name": "付费与余额"
+        }
+      ]
+    },
+    {
+      "slug": "telegram",
+      "nav": "电报",
+      "name": "Telegram 电报账号",
+      "h1": "Telegram 电报账号使用指南",
+      "title": "Telegram 电报账号指南：注册、登录与账号类型",
+      "description": "Telegram 账号相关指南：接码注册怎么做、tdata 和 session 是什么、收不到验证码怎么办、账号被封怎么处理、老号新号怎么选。",
+      "lead": "Telegram 注册绕不开手机号验证，国内号段限制又多，于是衍生出接码、tdata、session 等一整套概念。这里把它们逐个讲清楚，以及各自会在哪里出问题。",
+      "target": "https://www.taozi277.com/telegram",
+      "cta": "需要现成账号的话，<strong>淘号号</strong>的 Telegram 账号分新号、老号、不同地区号段等版本，下单自动发货。",
+      "cta_btn": "查看在售的 Telegram 账号 →",
+      "groups": [
+        {
+          "key": "get",
+          "name": "注册与获取"
+        },
+        {
+          "key": "login",
+          "name": "登录方式"
+        },
+        {
+          "key": "trouble",
+          "name": "故障处理"
+        }
+      ]
+    },
+    {
+      "slug": "twitter",
+      "nav": "推特 X",
+      "name": "推特 X 账号",
+      "h1": "推特 X 账号使用指南",
+      "title": "推特 X 账号指南：注册、2FA、养号与封号处理",
+      "description": "推特（X）账号相关指南：注册需要什么、2FA 怎么设置、老号和白号的区别、账号被锁被封怎么申诉、怎么降低风控概率。",
+      "lead": "推特改名 X 之后，注册门槛和风控策略都变了。这里整理账号获取、2FA 绑定、日常使用中会遇到的问题，以及被锁被封之后还能做什么。",
+      "target": "https://www.taozi277.com/x",
+      "cta": "需要现成账号的话，<strong>淘号号</strong>的推特 X 账号分白号、老号、带 2FA 等版本，下单自动发货。",
+      "cta_btn": "查看在售的推特 X 账号 →",
+      "groups": [
+        {
+          "key": "get",
+          "name": "注册与获取"
+        },
+        {
+          "key": "secure",
+          "name": "2FA 与安全"
+        },
+        {
+          "key": "trouble",
+          "name": "封号与申诉"
+        }
+      ]
+    },
+    {
+      "slug": "gmail",
+      "nav": "Gmail",
+      "name": "谷歌 Gmail 账号",
+      "h1": "谷歌 Gmail 账号使用指南",
+      "title": "谷歌 Gmail 账号指南：注册、验证与账号恢复",
+      "description": "Gmail 谷歌账号相关指南：手机号无法验证怎么办、免手机注册可行吗、验证码收不到怎么处理、账号被停用怎么恢复、老号和新号的区别。",
+      "lead": "注册 Gmail 最容易卡在手机验证这一步——同一个号码能验证的账号数量有限，换号段又常被判定异常。这里把验证环节的规则和绕不开的限制讲清楚。",
+      "target": "https://www.taozi277.com/google",
+      "cta": "需要现成账号的话，<strong>淘号号</strong>的谷歌 Gmail 账号分新号、老号等版本，下单自动发货。",
+      "cta_btn": "查看在售的 Gmail 账号 →",
+      "groups": [
+        {
+          "key": "get",
+          "name": "注册与获取"
+        },
+        {
+          "key": "verify",
+          "name": "验证问题"
+        },
+        {
+          "key": "trouble",
+          "name": "恢复与故障"
+        }
+      ]
+    },
+    {
+      "slug": "facebook",
+      "nav": "Facebook",
+      "name": "Facebook 脸书账号",
+      "h1": "Facebook 脸书账号使用指南",
+      "title": "Facebook 脸书账号指南：登录、验证与账号类型",
+      "description": "Facebook 账号相关指南：登不上是什么原因、需要身份验证怎么办、老号白号广告号有什么区别、账号被停用怎么申诉、怎么降低风控概率。",
+      "lead": "Facebook 的风控是主流平台里最严的，新登录设备、异地 IP、频繁操作都可能触发验证。这里按报错类型整理原因和处理办法。",
+      "target": "https://www.taozi277.com/facebook",
+      "cta": "需要现成账号的话，<strong>淘号号</strong>的 Facebook 账号分新号、老号、带好友号等版本，下单自动发货。",
+      "cta_btn": "查看在售的 Facebook 账号 →",
+      "groups": [
+        {
+          "key": "get",
+          "name": "注册与获取"
+        },
+        {
+          "key": "login",
+          "name": "登录问题"
+        },
+        {
+          "key": "trouble",
+          "name": "封号与申诉"
+        }
+      ]
+    }
+  ]
+}
