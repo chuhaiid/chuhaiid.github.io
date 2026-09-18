@@ -66,7 +66,7 @@ sitemap.xml      自动生成，别手改
 | 来源 | 位置 |
 | --- | --- |
 | appleshow 27 页标题清单 | 竞品站 `sites.google.com/view/appleshow` |
-| svip.chat 博客 360 篇 | `V4FK/docs/appleid-seo/svip-blog-选题库-2026-09-10.md`（带「状态」列记已认领）|
+| svip.chat 博客 360 篇 | `docs/方案/SEO/appleid-seo/svip-blog-选题库-2026-09-10.md`（带「状态」列记已认领）|
 | fbguanggao 28 页 | 竞品站 `sites.google.com/view/fbguanggao` |
 
 **发前必须比对主站已发文章，避免撞题。**主站苹果专项已发 11 篇（`/news/37 39 40 41 42 43 44 45 46 50` 等）。
