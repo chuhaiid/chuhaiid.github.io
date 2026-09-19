@@ -69,7 +69,7 @@ sitemap.xml      自动生成，别手改
 | svip.chat 博客 360 篇 | `docs/方案/SEO/appleid-seo/svip-blog-选题库-2026-09-10.md`（带「状态」列记已认领）|
 | fbguanggao 28 页 | 竞品站 `sites.google.com/view/fbguanggao` |
 
-**发前必须比对主站已发文章，避免撞题。**主站苹果专项已发 11 篇（`/news/37 39 40 41 42 43 44 45 46 50` 等）。
+**发前必须比对主站已发文章，避免撞题。**主站已发清单以 `SEO工作入口.md` 第二节「选题进度」为准(苹果专项到 `/news/59`、非苹果线到 `/news/60`)。
 
 ---
 
