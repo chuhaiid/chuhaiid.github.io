@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>出海ID指南</title>
+  <link>https://chuhaiid.github.io/</link>
+  <description>海外数字账号使用参考</description>
+  <language>zh-CN</language>
+  <lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate>
+  <atom:link href="https://chuhaiid.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Telegram 两步验证密码是什么：设置、忘记与接手账号</title>
+    <link>https://chuhaiid.github.io/telegram/two-step-password.html</link>
+    <guid isPermaLink="true">https://chuhaiid.github.io/telegram/two-step-password.html</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    <description>两步验证密码不是登录密码，而是验证码之外的第二道锁，也是账号归属的实际凭证。</description>
+  </item>
+  <item>
+    <title>Facebook账号登不上：密码错误、180天封号、反复验证各是什么原因</title>
+    <link>https://chuhaiid.github.io/facebook/login-errors.html</link>
+    <guid isPermaLink="true">https://chuhaiid.github.io/facebook/login-errors.html</guid>
+    <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+    <description>三种登录提示逐一对应原因与处理，附正确登录顺序与登录后 24 到 48 小时的禁忌。</description>
+  </item>
+  <item>
+    <title>谷歌Gmail账号去哪买：老号新号怎么选，交付字段看什么</title>
+    <link>https://chuhaiid.github.io/gmail/buy-guide.html</link>
+    <guid isPermaLink="true">https://chuhaiid.github.io/gmail/buy-guide.html</guid>
+    <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+    <description>先看卖家能保证什么，再比老号新号，最后核对交付字段；附拿到账号后前两周的操作节奏。</description>
+  </item>
+  <item>
+    <title>推特X账号去哪买：四种渠道的实际差别</title>
+    <link>https://chuhaiid.github.io/twitter/buy-guide.html</link>
+    <guid isPermaLink="true">https://chuhaiid.github.io/twitter/buy-guide.html</guid>
+    <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    <description>四种渠道按交付速度、卡密完整度、售后可达性逐一对比，并给出合格卡密的字段清单。</description>
+  </item>
+  <item>
+    <title>Telegram 的 tdata 和 session 是什么：区别与用法</title>
+    <link>https://chuhaiid.github.io/telegram/tdata-session.html</link>
+    <guid isPermaLink="true">https://chuhaiid.github.io/telegram/tdata-session.html</guid>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+    <description>两者都不是账号密码，而是已登录的会话凭证。区别在于一个给桌面客户端用，一个给程序用。</description>
+  </item>
+  <item>
+    <title>苹果 ID 购买平台怎么选：2026 年 5 个平台对比</title>
+    <link>https://chuhaiid.github.io/appleid/platform-compare.html</link>
+    <guid isPermaLink="true">https://chuhaiid.github.io/appleid/platform-compare.html</guid>
+    <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+    <description>先讲判断一个账号平台是否靠谱的 6 条标准，再对照淘号号、艾迪小店、账号星球等具体平台。</description>
+  </item>
+  <item>
+    <title>哪里买美区 Apple ID：2026 年四种渠道对比</title>
+    <link>https://chuhaiid.github.io/appleid/where-to-buy.html</link>
+    <guid isPermaLink="true">https://chuhaiid.github.io/appleid/where-to-buy.html</guid>
+    <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+    <description>自己注册、免费共享号、二手平台、专业商城——四条路的真实门槛和风险，以及各自适合谁。</description>
+  </item>
+  <item>
+    <title>「此时无法创建 Apple ID」报错：原因与替代方案</title>
+    <link>https://chuhaiid.github.io/appleid/cannot-create.html</link>
+    <guid isPermaLink="true">https://chuhaiid.github.io/appleid/cannot-create.html</guid>
+    <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+    <description>这个报错不提示具体原因，实际触发条件有五种。按成本从低到高的排查顺序。</description>
+  </item>
+  <item>
+    <title>Apple ID 被停用怎么解锁：能救和不能救的区别</title>
+    <link>https://chuhaiid.github.io/appleid/unlock-disabled.html</link>
+    <guid isPermaLink="true">https://chuhaiid.github.io/appleid/unlock-disabled.html</guid>
+    <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+    <description>「已被禁用」和「已被锁定」是两回事。买来的账号为什么申诉更难，什么时候该放弃。</description>
+  </item>
+  <item>
+    <title>美区 Apple ID 余额：充值、消费与退款全流程</title>
+    <link>https://chuhaiid.github.io/appleid/balance-guide.html</link>
+    <guid isPermaLink="true">https://chuhaiid.github.io/appleid/balance-guide.html</guid>
+    <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+    <description>怎么充、扣款顺序、为什么不能提现、退款怎么申请、余额用不了怎么排查。</description>
+  </item>
+</channel>
+</rss>

@@ -3,7 +3,7 @@
 出海ID指南 站点生成器
 
 用法:
-    python3.12 build.py          # 重建索引页、首页、sitemap，并统一全站导航与页脚
+    python3.12 build.py          # 重建索引页、首页、sitemap、RSS，并统一全站导航与页脚
     python3.12 build.py --check  # 只检查不写盘，报告会发生哪些变更
     python3.12 build.py --new <品类> <slug>   # 用模板新建一篇空文章
 
@@ -13,9 +13,9 @@
     3. build.py                                索引页、首页、sitemap 自动更新
     4. git push
 """
-import json, re, sys, shutil
+import html, json, re, sys, shutil
 from pathlib import Path
-from datetime import date
+from datetime import date, datetime
 
 ROOT = Path(__file__).parent
 CFG = json.loads((ROOT / 'site.json').read_text(encoding='utf-8'))
@@ -115,6 +115,7 @@ def page(title: str, desc: str, canonical: str, body: str, ld: str = '') -> str:
 <title>{full_title}</title>
 <meta name="description" content="{desc}">{gvtag}
 <link rel="canonical" href="{canonical}">
+<link rel="alternate" type="application/rss+xml" title="{SITE["name"]}" href="{SITE["base"]}/feed.xml">
 <link rel="stylesheet" href="/assets/style.css">{ldblock}
 </head>
 <body>
@@ -233,6 +234,38 @@ def build_sitemap(all_arts: dict):
     write(ROOT / 'sitemap.xml', '\n'.join(xml) + '\n')
 
 
+# ---------- RSS ----------
+
+def build_feed(all_arts: dict):
+    """RSS 2.0。作为第二个 sitemap 提交给 GSC，也方便聚合器发现新文。"""
+    base = SITE['base']
+    arts = sorted((a for v in all_arts.values() for a in v),
+                  key=lambda a: a['date'], reverse=True)
+    def rfc822(d: str) -> str:
+        return datetime.strptime(d, '%Y-%m-%d').strftime('%a, %d %b %Y 00:00:00 +0000')
+    def esc(t: str) -> str:
+        return html.escape(t, quote=False)
+    xml = ['<?xml version="1.0" encoding="UTF-8"?>',
+           '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
+           '<channel>',
+           f'  <title>{esc(SITE["name"])}</title>',
+           f'  <link>{base}/</link>',
+           f'  <description>{esc(SITE["tagline"])}</description>',
+           '  <language>zh-CN</language>',
+           f'  <lastBuildDate>{rfc822(arts[0]["date"]) if arts else rfc822(TODAY)}</lastBuildDate>',
+           f'  <atom:link href="{base}/feed.xml" rel="self" type="application/rss+xml"/>']
+    for a in arts:
+        xml += ['  <item>',
+                f'    <title>{esc(a["title"])}</title>',
+                f'    <link>{base + a["url"]}</link>',
+                f'    <guid isPermaLink="true">{base + a["url"]}</guid>',
+                f'    <pubDate>{rfc822(a["date"])}</pubDate>',
+                f'    <description>{esc(a["excerpt"])}</description>',
+                '  </item>']
+    xml += ['</channel>', '</rss>']
+    write(ROOT / 'feed.xml', '\n'.join(xml) + '\n')
+
+
 # ---------- 统一全站导航与页脚 ----------
 
 def sync_chrome(all_arts: dict):
@@ -291,6 +324,7 @@ def main():
     sync_chrome(all_arts)
     build_home(all_arts)
     build_sitemap(all_arts)
+    build_feed(all_arts)
 
     total = sum(len(v) for v in all_arts.values())
     print(f'{"[检查模式] " if CHECK else ""}文章总数 {total} 篇：' +
