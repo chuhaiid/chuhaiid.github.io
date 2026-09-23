@@ -5,8 +5,15 @@
   <link>https://chuhaiid.github.io/</link>
   <description>海外数字账号使用参考</description>
   <language>zh-CN</language>
-  <lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 23 Sep 2026 00:00:00 +0000</lastBuildDate>
   <atom:link href="https://chuhaiid.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>推特账号被锁定、受限、封停的区别与处理</title>
+    <link>https://chuhaiid.github.io/twitter/locked-limited-suspended.html</link>
+    <guid isPermaLink="true">https://chuhaiid.github.io/twitter/locked-limited-suspended.html</guid>
+    <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    <description>锁定能自己解、受限要等、封停只能申诉:三种状态怎么分、各自要准备什么。</description>
+  </item>
   <item>
     <title>Telegram 两步验证密码是什么：设置、忘记与接手账号</title>
     <link>https://chuhaiid.github.io/telegram/two-step-password.html</link>
