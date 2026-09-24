@@ -5,8 +5,15 @@
   <link>https://chuhaiid.github.io/</link>
   <description>海外数字账号使用参考</description>
   <language>zh-CN</language>
-  <lastBuildDate>Wed, 23 Sep 2026 00:00:00 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 24 Sep 2026 00:00:00 +0000</lastBuildDate>
   <atom:link href="https://chuhaiid.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>谷歌账号登录验证怎么过：辅助邮箱、2FA、手机号等五种提示逐个处理</title>
+    <link>https://chuhaiid.github.io/gmail/login-verification.html</link>
+    <guid isPermaLink="true">https://chuhaiid.github.io/gmail/login-verification.html</guid>
+    <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    <description>确认辅助邮箱、两步验证码、手机号、无法验证本人、浏览器不安全：五种登录提示怎么认、怎么过。</description>
+  </item>
   <item>
     <title>推特账号被锁定、受限、封停的区别与处理</title>
     <link>https://chuhaiid.github.io/twitter/locked-limited-suspended.html</link>
